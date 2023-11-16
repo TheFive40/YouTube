@@ -1,0 +1,63 @@
+/* Aplicar un diseño moderno al fondo de la ventana */
+.root {
+    -fx-background-color: #f4f4f4;
+}
+
+/* Estilo para los títulos de las secciones */
+.section-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* Estilo para los textfields */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-border-color: #999999;
+}
+
+/* Estilo para las áreas de texto (textarea) */
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-border-color: #999999;
+}
+
+/* Estilo para los ComboBox */
+.combo-box {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #999999;
+}
+
+/* Estilo para las etiquetas (labels) */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Estilo para los botones */
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+/* Estilo para los botones cuando se les pasa el cursor */
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+/* Estilo para los botones cuando se les presiona */
+.button:pressed {
+    -fx-background-color: #003a75;
+}
+/* Estilo para ImageView */
+.image-view {
+    -fx-background-color: transparent; /* Fondo transparente */
+    -fx-border-color: #999999; /* Color del borde */
+    -fx-border-width: 1px; /* Ancho del borde */
+}

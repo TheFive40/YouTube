@@ -1,0 +1,45 @@
+/* Estilo para el Label minimalista */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Estilo para el PieChart minimalista */
+.chart {
+    -fx-background-color: transparent;
+}
+
+/* Estilo para el TextField minimalista */
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #333333; /* Color del borde */
+    -fx-border-width: 1px; /* Ancho del borde */
+    -fx-text-fill: #333333; /* Color del texto */
+    -fx-prompt-text-fill: #999999; /* Color del texto de marcador de posición */
+}
+
+/* Estilo para el botón minimalista */
+.button {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 0, 1, 0;
+    -fx-background-radius: 0;
+    -fx-border-color: #333333; /* Color del borde */
+    -fx-border-width: 1px; /* Ancho del borde */
+    -fx-border-radius: 0;
+    -fx-text-fill: #333333; /* Color del texto */
+    -fx-font-size: 14px; /* Tamaño de fuente */
+    -fx-pref-width: 100px; /* Ancho preferido */
+    -fx-pref-height: 30px; /* Altura preferida */
+    -fx-cursor: hand; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Estilo para el botón al pasar el cursor sobre él */
+.button:hover {
+    -fx-background-color: #333333; /* Color de fondo al pasar el cursor sobre el botón */
+    -fx-text-fill: white; /* Color del texto al pasar el cursor sobre el botón */
+}
+
+/* Estilo para el botón al hacer clic en él */
+.button:pressed {
+    -fx-background-color: #666666; /* Color de fondo al hacer clic en el botón */
+}

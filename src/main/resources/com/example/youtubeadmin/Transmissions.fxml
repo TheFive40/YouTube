@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="472.0" prefWidth="635.0" stylesheets="@../../../Transmissions.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.youtubeadmin.Transmissions">
+   <children>
+      <AnchorPane prefHeight="472.0" prefWidth="138.0" style="-fx-background-color: gray;" />
+      <TableView fx:id="tableView" layoutX="154.0" layoutY="39.0" prefHeight="272.0" prefWidth="467.0">
+        <columns>
+          <TableColumn fx:id="columnChannel" prefWidth="85.0" text="Channel" />
+            <TableColumn fx:id="columnCategory" prefWidth="88.0" text="Category" />
+          <TableColumn fx:id="columnView" prefWidth="91.0" text="Views" />
+            <TableColumn fx:id="columnComments" prefWidth="103.0" text="Comments" />
+            <TableColumn fx:id="columnLikes" prefWidth="99.0" text="Likes" />
+        </columns>
+      </TableView>
+      <Label layoutX="154.0" layoutY="335.0" prefHeight="20.0" prefWidth="75.0" text="Total Views" />
+      <Label layoutX="154.0" layoutY="385.0" prefHeight="20.0" prefWidth="110.0" text="Total Comments" />
+      <Label layoutX="154.0" layoutY="432.0" prefHeight="20.0" prefWidth="110.0" text="Total Likes" />
+      <TextField fx:id="txtViews" layoutX="272.0" layoutY="329.0" promptText="Vistas totales" />
+      <TextField fx:id="txtComments" layoutX="272.0" layoutY="379.0" promptText="Comentarios totales" />
+      <TextField fx:id="txtLikes" layoutX="272.0" layoutY="426.0" promptText="Likes totales" />
+      <Label alignment="CENTER" layoutX="153.0" layoutY="14.0" prefHeight="20.0" prefWidth="467.0" text="Transmission details" />
+      <Button fx:id="btnSave" layoutX="465.0" layoutY="427.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="75.0" text="Save" />
+      <Button fx:id="btnPrint" layoutX="546.0" layoutY="427.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="75.0" text="Print" />
+   </children>
+</AnchorPane>

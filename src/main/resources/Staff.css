@@ -1,0 +1,17 @@
+/* Estilo para la ventana de créditos */
+.credits-window {
+    -fx-background-color: #f2f2f2; /* Color de fondo de la ventana */
+    -fx-padding: 20px; /* Espaciado interno para el contenido */
+}
+
+/* Estilo para el texto de los creadores */
+.creator-label {
+    -fx-font-size: 16px; /* Tamaño de fuente */
+    -fx-font-weight: bold; /* Texto en negrita */
+    -fx-text-fill: #333333; /* Color del texto */
+}
+
+/* Estilo para el contenedor del texto de los creadores */
+.creator-container {
+    -fx-padding: 10px; /* Espaciado interno del contenedor de texto */
+}

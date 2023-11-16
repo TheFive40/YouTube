@@ -1,0 +1,33 @@
+/* Estilo para el contenido dentro de contentMain */
+#contentMain {
+    -fx-background-color: #f2f2f2;
+}
+
+/* Estilo para el WebView */
+#webView {
+    -fx-border-radius: 5px;
+    -fx-background-color: white;
+    -fx-border-color: #3498DB;
+    -fx-border-width: 2px;
+}
+
+/* Estilo para el botón "Continuar" */
+#btnConfirm {
+    -fx-background-color: #3498DB;
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+}
+
+#btnConfirm:hover {
+    -fx-background-color: #1E90FF;
+}
+/* Estilo para los Label dentro de contentMain */
+#labeltitle {
+    -fx-font-size: 16;
+    -fx-text-fill: #333333;
+    -fx-padding: 10;
+}
+
+#labeltitle:hover {
+    -fx-text-fill: #3498DB;
+}
