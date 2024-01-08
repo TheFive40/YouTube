@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="364.0" prefWidth="590.0" stylesheets="@../../../Comments.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.youtubeadmin.Comments">
+   <children>
+      <!-- Título -->
+      <Label id="filterLabel" alignment="CENTER" layoutY="14.0" prefHeight="40.0" prefWidth="608.0" text="Filter Comments">
+         <font>
+            <Font name="Verdana" size="27.0" />
+         </font>
+      </Label>
+
+      <!-- Campo de texto "Word to filter" -->
+      <Label alignment="CENTER" layoutX="14.0" layoutY="68.0" prefHeight="21.0" prefWidth="318.0" text="Word to filter" />
+      <TextField fx:id="txtWord" layoutX="14.0" layoutY="94.0" prefHeight="34.0" prefWidth="318.0" />
+
+      <!-- Botones "Search" y "Clean" -->
+      <Button fx:id="btnSearch" layoutX="356.0" layoutY="91.0" mnemonicParsing="false" prefWidth="130.0" text="Search" />
+      <Button fx:id="btnClean" layoutX="500.0" layoutY="91.0" mnemonicParsing="false" prefWidth="120.0" text="Clean" />
+      <TextArea fx:id="textArea" layoutX="14.0" layoutY="142.0" prefHeight="200.0" prefWidth="318.0" />
+      <ImageView fitHeight="193.0" fitWidth="238.0" layoutX="356.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/YouTube_full-color_icon_(2017).svg_transparent.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

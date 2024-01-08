@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="379.0" prefWidth="518.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.youtubeadmin.AnalyticsTime">
+   <children>
+      <TextField fx:id="txtMinutes" layoutX="137.0" layoutY="71.0" />
+      <Label layoutX="29.0" layoutY="75.0" prefHeight="17.0" prefWidth="85.0" text="Minutos" />
+      <Button fx:id="btnCalcular" layoutX="336.0" layoutY="71.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="124.0" text="Calcular" />
+      <Label layoutX="29.0" layoutY="122.0" prefHeight="17.0" prefWidth="131.0" text="Promedio en Minutos" />
+      <Label layoutX="179.0" layoutY="122.0" prefHeight="17.0" prefWidth="131.0" text="Promedio en Segundos" />
+      <TextField fx:id="averageMinutes" disable="true" layoutX="29.0" layoutY="151.0" prefHeight="25.0" prefWidth="115.0" />
+      <TextField fx:id="averageSeconds" disable="true" layoutX="179.0" layoutY="151.0" prefHeight="25.0" prefWidth="131.0" />
+      <Label layoutX="29.0" layoutY="14.0" prefHeight="17.0" prefWidth="85.0" text="Categoria" />
+      <Label fx:id="txtCategory" layoutX="123.0" layoutY="14.0" prefHeight="17.0" prefWidth="107.0" />
+      <TableView fx:id="tableView" layoutX="14.0" layoutY="194.0" prefHeight="166.0" prefWidth="493.0">
+        <columns>
+          <TableColumn fx:id="columnMinutes" prefWidth="245.0" text="Minutes" />
+          <TableColumn fx:id="columnMinutesPrediction" minWidth="0.0" prefWidth="247.0" text="Prediction" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+/* Estilo para la etiqueta "Filter Comments" */
+.label {
+    -fx-font-size: 36px;
+    -fx-font-family: 'Arial';
+    -fx-text-fill: #3498db;
+}
+
+/* Estilo para las etiquetas "Word to filter" y "Search" */
+.label, .button {
+    -fx-font-size: 18px;
+    -fx-font-family: 'Arial';
+    -fx-text-fill: #2c3e50;
+}
+
+/* Estilo para el cuadro de texto "Word to filter" */
+.text-field {
+    -fx-prompt-text-fill: #95a5a6;
+    -fx-font-size: 16px;
+    -fx-font-family: 'Arial';
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+}
+
+/* Estilo para el área de texto */
+.text-area {
+    -fx-font-size: 16px;
+    -fx-font-family: 'Arial';
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+}
+
+/* Estilo para el botón "Search" */
+.button#btnSearch {
+    -fx-font-size: 18px;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 40px;
+}
+
+/* Estilo para el botón "Clean" */
+.button#btnClean {
+    -fx-font-size: 18px;
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 40px;
+}
+.button:hover {
+    -fx-background-color: #e67e22;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-background-insets: 0;
+}

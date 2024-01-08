@@ -1,0 +1,49 @@
+.root {
+    -fx-font-family: Arial, sans-serif;
+    -fx-background-color: #f9f9f9;
+}
+
+.label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #333333; /* Color de texto oscuro */
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-prompt-text-fill: #aaaaaa; /* Color del texto de marcador de posición */
+}
+
+.button {
+    -fx-padding: 8px 16px;
+    -fx-font-size: 14px;
+    -fx-background-color: #2185d0;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #2185d0; /* Color del borde igual al color de fondo */
+}
+
+.text-area {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-prompt-text-fill: #aaaaaa; /* Color del texto de marcador de posición */
+}
+
+.hbox {
+    -fx-spacing: 10px;
+}
+
+.vbox {
+    -fx-spacing: 10px;
+    -fx-padding: 20px;
+    -fx-background-color: #ffffff; /* Fondo blanco para el VBox */
+    -fx-border-color: #cccccc; /* Borde alrededor del VBox */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px; /* Bordes redondeados */
+}
+

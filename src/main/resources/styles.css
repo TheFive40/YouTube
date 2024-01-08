@@ -1,0 +1,132 @@
+/* Estilo base para los Label */
+.labelmenu {
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-text-fill: black; /* Cambiar el color del texto a blanco */
+}
+
+/* Estilo de los Label cuando se les pasa el mouse por encima */
+.labelmenu:hover {
+    -fx-background-color: #555555; /* Cambio de color al pasar el mouse a un tono más oscuro */
+}
+
+/* Estilo de los Label seleccionados o activos */
+.labelmenu:selected {
+    -fx-background-color: #444444; /* Cambio de color cuando están seleccionados */
+}
+
+/* Estilo de los Label cuando están presionados */
+.labelmenu:pressed {
+    -fx-background-color: #333333; /* Cambio de color cuando están presionados */
+}
+
+/* Estilo para el VBox */
+.vbox {
+    -fx-background-color: transparent;
+}
+
+/* Estilo para el HBox */
+.hbox {
+    -fx-background-color: transparent;
+}
+
+/* Estilo para el ImageView */
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 1); /* Sombra suave */
+}
+
+/* Estilo para el AnchorPane principal */
+.anchor-pane {
+    -fx-background-color: #000000; /* Fondo negro para el WebView */
+}
+
+/* Estilo para el TilePane (contenedor de videos) */
+.tile-pane {
+    -fx-background-color: transparent;
+}
+
+/* Estilo para el WebView */
+.web-view {
+    -fx-background-color: #1c1c1c; /* Fondo oscuro para el WebView */
+}
+
+/* Estilo para el Label "WELCOME BACK" */
+.label-welcome {
+    -fx-font-size: 20px;
+    -fx-font-family: "Arial", sans-serif; /* Cambiar la fuente a una sans-serif más profesional */
+    -fx-font-weight: bold; /* Hacer el texto en negrita para un aspecto más destacado */
+    -fx-text-fill: #ffffff; /* Cambiar el color del texto a blanco */
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 1); /* Sombra suave */
+}
+.labelcontent:hover {
+    -fx-background-color: #555555; /* Cambio de color al pasar el mouse a un tono más oscuro */
+}
+
+/* Estilo de los Label seleccionados o activos */
+.labelcontent:selected {
+    -fx-background-color: #444444; /* Cambio de color cuando están seleccionados */
+}
+
+/* Estilo de los Label cuando están presionados */
+.labelcontent:pressed {
+    -fx-background-color: #333333; /* Cambio de color cuando están presionados */
+}
+/* Estilo para RadioButtons */
+.radio-button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Cambia el color del texto */
+
+}
+
+/* Cambio de color de fondo al pasar el mouse por encima */
+.radio-button:hover {
+    -fx-background-color: #f0f0f0; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Cambio de color de fondo cuando están seleccionados */
+.radio-button:selected {
+    -fx-background-color: #007bff; /* Cambia el color de fondo cuando están seleccionados */
+    -fx-text-fill: #ffffff; /* Cambia el color del texto cuando están seleccionados */
+}
+
+/* Cambio de color de fondo cuando están presionados */
+.radio-button:pressed {
+    -fx-background-color: #0056b3; /* Cambia el color de fondo cuando están presionados */
+    -fx-text-fill: #ffffff; /* Cambia el color del texto cuando están presionados */
+}
+
+/* Elimina el efecto de borde cuando están seleccionados */
+.radio-button:selected:focused {
+    -fx-border-color: transparent;
+}
+
+/* Estilo para el contenedor de RadioButtons si es necesario */
+.radio-button-bar {
+    /* Agrega estilos adicionales para el contenedor si es necesario */
+}
+/* Estilo para el Label "Filter" */
+.label-filter {
+    -fx-font-size: 18px; /* Aumenta el tamaño de la fuente */
+    -fx-font-family: "Arial", sans-serif; /* Cambia la fuente a una sans-serif */
+    -fx-font-weight: bold; /* Hace el texto en negrita */
+    -fx-text-fill: #333333; /* Cambia el color del texto a un tono más oscuro */
+    -fx-background-color: transparent; /* Fondo transparente */
+    -fx-padding: 5px 10px; /* Espaciado interno */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 1); /* Sombra suave */
+}
+
+/* Cambio de color de fondo al pasar el mouse por encima */
+.label-filter:hover {
+    -fx-background-color: #f0f0f0; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Cambio de color de fondo cuando está presionado */
+.label-filter:pressed {
+    -fx-background-color: #0056b3; /* Cambia el color de fondo cuando está presionado */
+    -fx-text-fill: #ffffff; /* Cambia el color del texto cuando está presionado */
+}
+
+

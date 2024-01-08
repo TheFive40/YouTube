@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.youtubeadmin.DashboardContent">
+    <children>
+        <HBox layoutY="63.0" prefHeight="337.0" prefWidth="220.0">
+            <children>
+                <VBox alignment="TOP_CENTER" prefHeight="337.0" prefWidth="106.0" style="-fx-background-color: white;">
+                    <children>
+                        <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../images/images_transparent.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="41.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../images/kisspng-computer-icons-clip-art-vector-graphics-portable-n-5c3912f7a693e9.0528720915472442796823_transparent.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="125.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../images/png-transparent-bar-chart-statistics-computer-icons-business-statistics-text-presentation-statistics_transparent.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="45.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../images/6073873_transparent.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="45.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../images/descarga_transparent.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+                <VBox prefHeight="337.0" prefWidth="209.0" style="-fx-background-color: white;">
+                    <children>
+                        <Label prefHeight="40.0" prefWidth="153.0" styleClass="labelmenu" text="Dashboard" textAlignment="CENTER">
+                            <font>
+                                <Font name="Baskerville Old Face" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="40.0" prefWidth="153.0" styleClass="labelmenu" text="Suscribers" textAlignment="CENTER">
+                            <font>
+                                <Font name="Baskerville Old Face" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="40.0" prefWidth="153.0" styleClass="labelmenu" text="Analytics" textAlignment="CENTER">
+                            <font>
+                                <Font name="Baskerville Old Face" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="40.0" prefWidth="153.0" styleClass="labelmenu" text="Acount" textAlignment="CENTER">
+                            <font>
+                                <Font name="Baskerville Old Face" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="42.0" prefWidth="149.0" styleClass="labelmenu" text="Exit" textAlignment="CENTER">
+                            <font>
+                                <Font name="Baskerville Old Face" size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <HBox prefHeight="63.0" prefWidth="701.0" style="-fx-background-color: #333333;">
+            <children>
+                <Label alignment="CENTER" prefHeight="64.0" prefWidth="186.0" text="Welcome " textAlignment="CENTER" textFill="WHITE" />
+                <Label fx:id="digitalClock" alignment="TOP_RIGHT" prefHeight="17.0" prefWidth="421.0" textFill="#fffefe">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                </Label>
+            </children></HBox>
+        <HBox fx:id="contentMain" layoutX="220.0" layoutY="63.0" prefHeight="373.0" prefWidth="481.0" style="-fx-background-color: whitesmoke;">
+            <children>
+                <AnchorPane fx:id="anchor" prefHeight="373.0" prefWidth="485.0" style="-fx-background-color: gray;">
+               <children>
+                  <HBox layoutX="12.0" layoutY="138.0" prefHeight="231.0" prefWidth="458.0">
+                     <children>
+                        <VBox alignment="TOP_CENTER" prefHeight="231.0" prefWidth="85.0">
+                           <children>
+                              <Label prefHeight="22.0" prefWidth="85.0" styleClass="label-filter" stylesheets="@../../../styles.css" text="Filters" textFill="WHITE" />
+                              <ImageView fitHeight="51.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/png-transparent-youtube-1m-million-views-red-button-youtube-youtuber-icon_transparent.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="51.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/664-6649568_upward-trend-png-transparent-png.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="51.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/images_transparent%20(1).png" />
+                                 </image>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </ImageView>
+                           </children>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </VBox>
+                        <AnchorPane prefHeight="231.0" prefWidth="377.0">
+                           <children>
+                              <RadioButton fx:id="relevance" layoutY="87.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="134.0" selected="true" stylesheets="@../../../styles.css" text="Relevance" textFill="WHITE">
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="videoFilter" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton fx:id="viewCount" layoutY="37.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="141.0" stylesheets="@../../../styles.css" text="Viewcount" textFill="WHITE" toggleGroup="$videoFilter" />
+                              <RadioButton fx:id="rating" layoutY="154.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="134.0" stylesheets="@../../../styles.css" text="Rating" textFill="WHITE" toggleGroup="$videoFilter" />
+                              <Separator layoutX="163.0" layoutY="3.0" orientation="VERTICAL" prefHeight="212.0" prefWidth="7.0" />
+                              <ComboBox fx:id="regionCode" layoutX="188.0" layoutY="37.0" prefHeight="25.0" prefWidth="172.0" />
+                              <Label layoutX="176.0" layoutY="-1.0" prefHeight="25.0" prefWidth="141.0" styleClass="label-filter" stylesheets="@../../../styles.css" text="Region Code" textFill="WHITE" />
+                              <ListView fx:id="category" layoutX="188.0" layoutY="75.0" prefHeight="137.0" prefWidth="172.0" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <AnchorPane prefHeight="137.0" prefWidth="483.0">
+                     <children>
+                        <ComboBox fx:id="definitionsType" layoutX="20.0" layoutY="37.0" prefHeight="25.0" prefWidth="134.0" />
+                        <Label layoutX="12.0" layoutY="6.0" prefHeight="31.0" prefWidth="113.0" styleClass="label-filter" stylesheets="@../../../styles.css" text="Definition" textFill="WHITE" />
+                        <TextField fx:id="maxResults" layoutX="20.0" layoutY="98.0" prefHeight="25.0" prefWidth="134.0" promptText="Resultados maximos" />
+                        <Label layoutX="12.0" layoutY="69.0" prefHeight="31.0" prefWidth="134.0" styleClass="label-filter" stylesheets="@../../../styles.css" text="Max results" textFill="WHITE" />
+                     </children>
+                  </AnchorPane>
+               </children>
+                </AnchorPane>
+            </children></HBox>
+    </children>
+</AnchorPane>
